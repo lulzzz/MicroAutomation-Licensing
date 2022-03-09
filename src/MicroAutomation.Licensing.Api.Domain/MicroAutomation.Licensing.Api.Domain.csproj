@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.6" />
+    <PackageReference Include="Sieve" Version="2.5.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MicroAutomation.Licensing.Data.PostgreSQL\MicroAutomation.Licensing.Data.PostgreSQL.csproj" />
+    <ProjectReference Include="..\MicroAutomation.Licensing.Data.Shared\MicroAutomation.Licensing.Data.Shared.csproj" />
+    <ProjectReference Include="..\MicroAutomation.Licensing.Data.SQLServer\MicroAutomation.Licensing.Data.SQLServer.csproj" />
+    <ProjectReference Include="..\MicroAutomation.Licensing\MicroAutomation.Licensing.csproj" />
+  </ItemGroup>
+
+</Project>
