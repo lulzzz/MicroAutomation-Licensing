@@ -44,6 +44,45 @@ The solution is written in the **Asp.Net Core MVC - using .NET 6**
 }
 ```
 
+## Validate the license in your application
+
+The easiest way to assert the license is in the entry point of your application.
+
+First load the license from a file or resource:
+
+```csharp
+var license = License.Load(...);
+```
+
+Then you can assert the license:
+
+```csharp
+var validation = license.Validate()  
+    .ExpirationDate()  
+    .When(lic => lic.Type == LicenseType.Trial)  
+    .And()  
+    .Signature(publicKey)  
+    .AssertValidLicense();
+```
+
+Licensing class will not throw any Exception and just return an enumeration of validation failures.
+
+Now you can iterate over possible validation failures:
+
+```csharp
+foreach (var failure in validationFailures)
+     Console.WriteLine(failure.GetType().Name + ": " + failure.Message + " - " + failure.HowToResolve);
+```
+
+Or simply check if there is any failure:
+
+```csharp
+if (validationFailures.Any())
+   // ...
+```
+
+Make sure to call `validationFailures.ToList()` or `validationFailures.ToArray()` before using the result multiple times.
+
 ## How to Contribute
 
 Everyone is welcome to contribute to this project! Feel free to contribute with pull requests, bug reports or enhancement suggestions.
