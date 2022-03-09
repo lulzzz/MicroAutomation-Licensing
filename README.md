@@ -51,3 +51,11 @@ Everyone is welcome to contribute to this project! Feel free to contribute with 
 ## Bugs and Feedback
 
 For bugs, questions and discussions please use the [GitHub Issues](https://github.com/NetbootHome/MicroAutomation-Licensing/issues).
+
+## Credits
+
+- [junian/Standard.Licensing](https://github.com/junian/Standard.Licensing) for the original work of the library.
+
+## License
+
+This project is licensed under [MIT License](https://github.com/NetbootHome/MicroAutomation-Licensing/blob/main/LICENSE).
