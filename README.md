@@ -4,10 +4,10 @@
 
 ## Project Status
 
-[![Build](https://github.com/NetbootHome/MicroAutomation-Licensing/actions/workflows/build.yml/badge.svg)](https://github.com/NetbootHome/MicroAutomation-Licensing/actions/workflows/build.yml)
-[![CodeQL](https://github.com/NetbootHome/MicroAutomation-Licensing/actions/workflows/codeql.yml/badge.svg)](https://github.com/NetbootHome/MicroAutomation-Licensing/actions/workflows/codeql.yml)
-[![Test](https://github.com/NetbootHome/MicroAutomation-Licensing/actions/workflows/test.yml/badge.svg)](https://github.com/NetbootHome/MicroAutomation-Licensing/actions/workflows/test.yml)
-[![Maintainability](https://api.codeclimate.com/v1/badges/c57c633412aafada9557/maintainability)](https://codeclimate.com/github/NetbootHome/MicroAutomation-Licensing/maintainability)
+[![Build](https://github.com/NetbootCompany/MicroAutomation-Licensing/actions/workflows/build.yml/badge.svg)](https://github.com/NetbootCompany/MicroAutomation-Licensing/actions/workflows/build.yml)
+[![CodeQL](https://github.com/NetbootCompany/MicroAutomation-Licensing/actions/workflows/codeql.yml/badge.svg)](https://github.com/NetbootCompany/MicroAutomation-Licensing/actions/workflows/codeql.yml)
+[![Test](https://github.com/NetbootCompany/MicroAutomation-Licensing/actions/workflows/test.yml/badge.svg)](https://github.com/NetbootCompany/MicroAutomation-Licensing/actions/workflows/test.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/c57c633412aafada9557/maintainability)](https://codeclimate.com/github/NetbootCompany/MicroAutomation-Licensing/maintainability)
 
 The solution is written in the **Asp.Net Core MVC - using .NET 6**
 
