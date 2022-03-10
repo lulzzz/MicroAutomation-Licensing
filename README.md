@@ -89,7 +89,7 @@ Everyone is welcome to contribute to this project! Feel free to contribute with 
 
 ## Bugs and Feedback
 
-For bugs, questions and discussions please use the [GitHub Issues](https://github.com/NetbootHome/MicroAutomation-Licensing/issues).
+For bugs, questions and discussions please use the [GitHub Issues](https://github.com/NetbootCompany/MicroAutomation-Licensing/issues).
 
 ## Credits
 
@@ -97,4 +97,4 @@ For bugs, questions and discussions please use the [GitHub Issues](https://githu
 
 ## License
 
-This project is licensed under [MIT License](https://github.com/NetbootHome/MicroAutomation-Licensing/blob/main/LICENSE).
+This project is licensed under [MIT License](https://github.com/NetbootCompany/MicroAutomation-Licensing/blob/main/LICENSE).
